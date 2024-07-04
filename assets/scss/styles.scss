@@ -1,0 +1,125 @@
+@import "../bootstrap-5.3.3/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+
+.bg-body-tertiary{
+    background: rgb(166,170,174) !important;
+background: linear-gradient(180deg, rgba(166,170,174,1) 0%, rgba(167,171,175,0) 100%) !important;
+top: 0;
+}
+
+body{
+    color: #5F8F90 !important;
+    font-family: "Kameron", serif !important;
+    font-style: normal !important;
+    overflow-x: hidden;
+}
+
+.navbar-nav .color-cyan{
+    color: #A8E6E6 !important;
+    font-family: "Kameron", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar-nav .color-cyan:hover{
+    color: white !important;
+
+}
+
+.nav-item .color-purple{
+    color: #5F8F90 !important;
+    font-family: "Kameron", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-item .color-purple:hover{
+    color: purple !important;
+
+}
+
+.imagen{
+    background-image: url(../img/fondo-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.margen{
+    margin-top: 200px;
+}
+
+.fondo{
+    background-color: rgba( 92, 87, 167, .42);
+    padding-bottom: 100px;
+}
+
+.borde{
+    border: #A8E6E6 solid 5px;
+}
+
+.boton{
+    background-color: #918CDB !important;
+    border: none !important;
+}
+
+.boton:hover{
+    background-color: white !important;
+    color: #918CDB !important;
+    border: #918CDB solid 4px !important;
+}
+
+.fondo2{
+    background-color: #AFACDC;
+    height: 500px;
+}
+
+.fondo3{
+    background-color: #918CDB;
+    background-image: url(../img/rosas-fondo-3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 950px 950px;
+    height: 700px;
+}
+
+.color-blanco{
+    color: white;
+}
+
+.boton2{
+    background-color: #5F8F90 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.boton2:hover{
+    background-color: white !important;
+    color: #5F8F90 !important;
+    border: #5F8F90 solid 4px !important;
+}
+
+.fuente{
+    font-size: medium;
+}
+
+.fondo4{
+    background-color: #BAB8DA;
+    height: 320px;
+}
+
+.btn-primary{
+    background-color: purple;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    border: purple solid 2px;
+    color: purple;
+}
+
+.nueva-clase{
+    background-color: black;
+    top: 0;
+}
